@@ -1,0 +1,28 @@
+.calc{
+    width: 400px;
+    height: 360px;
+    margin-left: 400px;
+    margin-top: 50px;
+    background: gray;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 4px;
+}
+#scr{
+    height: 55px;
+    width: 368px;
+    margin-left: 11px;
+    margin-top: 16px;
+    border: solid 2px;
+    border-radius: 9px;
+    pointer-events: none;
+}
+.btn{
+    width: 80px;
+    height: 37px;
+    margin-left: 12px;
+    margin-top: 16px;
+    border: solid 1px;
+    border-radius: 6px;
+    background: bisque;
+}

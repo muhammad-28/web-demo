@@ -1,0 +1,104 @@
+button{
+    background: blue;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: background 0.2s;
+}
+.button:hover{
+    background: lightseagreen;
+}
+.outer-box{
+    border: solid 5px;
+    border-color: aqua;
+    border-radius: 15px;
+    background: orchid;
+    color: #ffff;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-left: 50px;
+    transition: 1s;
+
+}
+.outer-box:hover{
+    background: red;
+}
+
+.inner-div{
+    margin: 10px;
+    margin-top: 40px;
+    background: forestgreen;
+    border:solid 5px;
+    border-color: indigo;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: none;
+
+}
+.inner-div:hover{
+    background: goldenrod;
+}
+#para{
+    color: yellow;
+}
+#para1{
+    color: yellowgreen;
+}
+.content{
+    color: darkred;
+    background: lawngreen;
+}
+.box0{
+    height: 500px;
+    width: 400px;
+    background: green;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border: 5px solid;
+    overflow-y: auto;
+    border-radius: 20px;
+    border-color: brown;
+
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    mix-blend-mode: color-burn;
+    object-fit: contain;
+
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    transition: none;
+
+}
+.box:hover{
+    background: cyan;
+}
+.ofimg{
+    object-fit: cover;
+}

@@ -1,0 +1,128 @@
+.header{
+    background: #3b5988;
+    width: 100%;
+    height: 85px;
+
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, Neue;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+    
+}
+.login-controls{
+    padding-left: 115px;
+    padding-top: 10px;
+}
+.logo-text{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, Neue;
+    margin-left: 170px;
+}
+.login-label{
+    color: #fff;
+    font-size: 11px;
+}
+.col-spc{
+    margin-left: 20px;
+}
+.e-mar{
+    margin-left: 30px;
+}
+.forgotten{
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    color: #9cb4d8;
+}
+.sbt-btn{
+    background-color: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+.sbt-btn:hover{
+    background: rgb(56, 56, 212);
+}
+.left-section{
+    width: 47%;
+    float: left;
+    padding-left: 166px;
+    padding-top: 38px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #1877f2;
+}
+.right-section{
+    width: 42%;
+    float: left;
+}
+.main-body{
+    background: linear-gradient(white,#d3d8e8);
+    width: 100%;
+    height: 600px;
+}
+.image{
+    width: 550px;
+   
+}
+.box0{
+    width: 172px;
+    height: 37px;
+    border: solid 1px;
+    border-color: #d3d8e8;
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+.box1{
+    width: 172px;
+    height: 37px;
+    margin-left: 5px;
+    border: solid 1px;
+    border-color: #d3d8e8;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.box2{
+    width: 367px;
+    height: 37px;
+    border: solid 1px;
+    border-color: #d3d8e8;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.dob{
+    margin-top: 5px;
+    height: 31px;
+    border-color: #d3d8e8;
+    border-radius: 5px;
+}
+#line{
+    margin-top: -6px;
+}
+.gndr{
+    margin-top: 0px;
+}
+.sbmt{
+    margin-top: 25px;
+    background-color: rgb(0, 141, 0);
+    border-radius: 3px;
+    height: 35px;
+    width: 199px;
+    font-size: 20px;
+    color: white;
+}
